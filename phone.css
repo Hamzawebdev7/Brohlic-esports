@@ -1,0 +1,108 @@
+body::before {
+    background-position-x: -211rem;
+}
+
+/* Navbar */
+
+#navbar {
+    flex-direction: column;
+}
+
+nav ul {
+    margin: 0px 20px;
+}
+
+nav ul li {
+    width: 25%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    font-size: 1.6rem;
+    margin: 0px 6px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#slogan {
+    display: flex;
+    width: 100%;
+    font-size: 1.9rem;
+    color: yellow;
+    font-weight: bolder;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+/* Home */
+
+#home {
+    height: 100%;
+    padding-left: 40px;
+}
+
+ #home h1 {
+    padding-top: 30px;
+    font-size: 2.2rem;
+} 
+
+#hdiv2 {
+    padding-bottom: 25px;
+    width: 90%;
+}
+
+.hdiv {
+    margin-right: 45px;
+    text-align: center;
+}
+
+/* Team  */
+
+#tdiv2 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+    padding: 0px 17px;
+}
+
+.priteam {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.tdiv {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+/* Partners */
+
+#pdiv2 {
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.pripart {
+    width: 100%;
+    padding-bottom: 38px;
+}
+
+.pdiv {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+/* Contact US  */
+
+#cdiv2 {
+    margin: 0px 10px;
+}
+
+ #fs {
+    margin-right: 15px;
+} 
